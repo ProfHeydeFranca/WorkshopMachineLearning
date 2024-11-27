@@ -1,0 +1,61 @@
+##############morango
+https://universe.roboflow.com/dyafars-dnaho/arbei-i4pjr
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YKGaAiWa9Jw92WpzyZl8")
+project = rf.workspace("dyafars-dnaho").project("arbei-i4pjr")
+version = project.version(3)
+dataset = version.download("yolov8")
+
+
+
+############OVO
+https://universe.roboflow.com/pcb-uas/pcb-uas-sfjif
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YKGaAiWa9Jw92WpzyZl8")
+project = rf.workspace("pcb-uas").project("pcb-uas-sfjif")
+version = project.version(3)
+dataset = version.download("yolov8")
+
+
+
+##########pasture
+https://universe.roboflow.com/cattle-g3ity/cattle-zhwy1/dataset/4
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YKGaAiWa9Jw92WpzyZl8")
+project = rf.workspace("workspace-9qpga").project("cows-1jdaq")
+version = project.version(4)
+dataset = version.download("yolov8")
+
+
+
+######### soja
+https://universe.roboflow.com/tarynreol-qq0od/123-fetaz
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YKGaAiWa9Jw92WpzyZl8")
+project = rf.workspace("tarynreol-qq0od").project("123-fetaz")
+version = project.version(6)
+dataset = version.download("yolov8")
+
+
+########## frutas
+https://universe.roboflow.com/images-train/dataset-htplt/dataset/2#
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="YKGaAiWa9Jw92WpzyZl8")
+project = rf.workspace("images-train").project("dataset-htplt")
+version = project.version(2)
+dataset = version.download("yolov8")
